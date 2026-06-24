@@ -1,0 +1,51 @@
+
+
+{
+  "name": "ecommerce-website",
+  "version": "1.0.0",
+  "description": "A modern, responsive e-commerce website built with HTML, CSS, and JavaScript",
+  "main": "index.html",
+  "scripts": {
+    "start": "live-server --port=5500 --open=index.html",
+    "dev": "live-server --port=5500 --watch=css,js,*.html,other-pages/*.html",
+    "serve": "live-server --port=5500 --entry-file=index.html",
+    "build": "echo 'No build process needed for static HTML/CSS/JS site' && echo 'Project is ready to deploy!'",
+    "test": "echo 'No tests specified yet' && exit 0"
+  },
+  "keywords": [
+    "ecommerce",
+    "website",
+    "responsive",
+    "html",
+    "css",
+    "javascript",
+    "shopping-cart",
+    "product-catalog"
+  ],
+  "author": {
+    "name": "Your Name",
+    "email": "your.email@example.com",
+    "url": "https://github.com/yasirawan4831"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "live-server": "^1.2.2"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YasirAwan4831/ecommerce-website.git"
+  },
+  "bugs": {
+    "url": "https://github.com/YasirAwan4831/ecommerce-website/issues"
+  },
+  "homepage": "https://github.com/YasirAwan4831/ecommerce-website#readme",
+  "browserslist": [
+    "last 2 Chrome versions",
+    "last 2 Firefox versions",
+    "last 2 Safari versions",
+    "last 2 Edge versions"
+  ]
+}
